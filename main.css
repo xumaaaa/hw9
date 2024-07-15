@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wrap1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 40px 0;
+}
+
+.menu1{
+    display: flex;
+    gap: 50px;
+
+    a{
+        color: gray;
+        text-decoration: none;
+
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+.btn1{
+    padding: 20px 60px;
+    background-color:  rgba(255, 113, 67, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 10px ;
+}
+
+
+.wrap2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.box2{
+    width: 470px;
+
+
+    h1{
+        font-size: 80px;
+    }
+
+
+    p{
+        font-size: 20px;
+        margin: 20px 0 50px;
+    }
+}
+
+.btns{
+    display: flex;
+    gap: 35px;
+
+    button{
+        padding: 20px 60px;
+        width: 215px;
+        border-radius: 10px;
+    }
+}
+
+.btn2{
+    background-color: rgba(84, 84, 212, 1);
+    color: white;
+    border: none;
+
+    padding: 20px 60px;
+    width: 215px;
+    border-radius: 10px;
+}
+.btn3{
+    background: none;
+    color: rgba(84, 84, 212, 1);
+
+    border: 1px solid rgba(84, 84, 212, 1);
+
+    padding: 20px 60px;
+    width: 215px;
+    border-radius: 10px;
+}
+
+
+.wrap3{
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    align-items: center;
+}
+
+.btns3{
+    input{
+        padding: 18px;
+        border-radius: 10px;
+    }
+}
+
+.box3{
+    h2{
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+.wrap4{
+    padding: 80px 0 130px;
+
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+        
+    }
+}
+
+.cards4{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card4{
+    width: 330px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #f8f8f8;
+
+    padding: 30px;
+
+    gap: 22px;
+    border-radius: 8px;
+    
+
+
+    p{
+        font-size: 17px;
+        line-height: 200%;
+        color: rgba(105, 104, 113, 1)
+        ;
+    }   
+
+    button{
+        width: 100%;
+        padding: 20px;
+        color: rgba(84, 84, 212, 1);
+        background: white;
+        border: 1px solid rgba(234, 233, 242, 1);
+        font-size: 17px;
+        border-radius: 10px;
+
+
+    }
+
+    h2{
+        font-size: 55px;
+    }
+
+}
+
+.card5{
+    width: 330px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    background-color: rgba(255, 113, 67, 1)
+
+    ;
+
+    padding: 30px;
+
+    gap: 22px;
+
+    border-radius: 8px;
+
+
+    p{
+        font-size: 17px;
+        line-height: 200%;
+    }   
+
+    button{
+        width: 100%;
+        padding: 20px;
+        color: white;
+        background: rgba(159, 57, 25, 1);
+        border: none;
+        font-size: 17px;
+        background-color: rgba(159, 57, 25, 1) ;
+        border-radius: 10px;
+
+
+
+    }
+
+    h2{
+        font-size: 55px;
+    }   
+}
+
+
+
+.wrap5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 40px 0;
+}
+
+.menu2{
+    display: flex;
+    gap: 50px;
+
+    a{
+        color: gray;
+        text-decoration: none;
+
+        &:hover{
+            color: black;
+        }
+    }
+.sup{
+    color: black;
+}
+}
